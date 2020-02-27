@@ -2,6 +2,7 @@ let html = document.querySelector('#html')
 let style = document.querySelector('#style')
 let n = 0
 let string = `
+
 /*一二三四五
 上山打老虎
 老虎没达到
@@ -68,6 +69,6 @@ let step = () => {
             n += 1
             step()
         }
-    }, 0)
+    }, 50)
 }
 step()
